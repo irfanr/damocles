@@ -1,0 +1,13 @@
+entity Task {
+	code String,
+    name String
+}
+
+entity Project {
+	code String,
+    name String
+}
+
+relationship OneToMany {
+	Project{task} to Task
+}
