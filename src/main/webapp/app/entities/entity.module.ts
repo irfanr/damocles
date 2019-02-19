@@ -4,6 +4,14 @@ import { RouterModule } from '@angular/router';
 @NgModule({
     imports: [
         RouterModule.forChild([
+            {
+                path: 'task',
+                loadChildren: './task/task.module#DamoclesTaskModule'
+            },
+            {
+                path: 'project',
+                loadChildren: './project/project.module#DamoclesProjectModule'
+            }
             /* jhipster-needle-add-entity-route - JHipster will add entity modules routes here */
         ])
     ],
