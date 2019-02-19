@@ -1,0 +1,42 @@
+{
+  "generator-jhipster": {
+    "applicationType": "monolith",
+    "gitCompany": "",
+    "baseName": "damocles",
+    "packageName": "com.mascova.damocles",
+    "packageFolder": "com/mascova/damocles",
+    "serverPort": 8080,
+    "serviceDiscoveryType": false,
+    "authenticationType": "jwt",
+    "uaaBaseName": "../uaa",
+    "cacheProvider": "ehcache",
+    "enableHibernateCache": true,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "postgresql",
+    "prodDatabaseType": "postgresql",
+    "searchEngine": false,
+    "enableSwaggerCodegen": false,
+    "messageBroker": false,
+    "buildTool": "maven",
+    "useSass": false,
+    "clientPackageManager": "npm",
+    "testFrameworks": [],
+    "enableTranslation": true,
+    "nativeLanguage": "en",
+    "languages": [
+      "id",
+      "en"
+    ],
+    "clientFramework": "angularX",
+    "jhiPrefix": "jhi",
+    "jhipsterVersion": "5.8.1",
+    "jwtSecretKey": "YzkwMjA5MmYyNjY1YmJmNDVhN2ExZWI2NjBjM2ZiN2UwMzRkZDg3ODk4ODE3YTJjMzlmN2M3OWJiODFlZjU0MzY1ZjRhMjZiZmQ4YjEyMWYxOTdmOWJjZWM4YjNkOTc0NDRhOTljYzhiY2FkYjU5NjFlYjc2OWQ4YzdjZTNjMGY=",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": []
+  },
+  "git-provider": "GitHub",
+  "git-company": "irfanr",
+  "repository-name": "damocles"
+}
